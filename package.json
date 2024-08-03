@@ -1,0 +1,16 @@
+{
+  "name": "Obter-IP-Publico-do-Cliente",
+  "version": "1.0.0",
+  "description": "Uma biblioteca JavaScript eficiente e leve para obter, do lado do cliente, o endereço IP público.",
+  "main": "Obter-IP-Publico-do-Cliente.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["ip", "public-ip", "network", "get-ip", "ip-extractor"],
+  "author": "Fortaleza Digital Da Bahia",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
+}
