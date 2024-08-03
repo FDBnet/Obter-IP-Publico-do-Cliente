@@ -64,8 +64,7 @@ obterIP().then(ip => {
 
 ## Contribuindo
 
-Contribuições são bem-vindas! Por favor, leia as [diretrizes de contribuição](CONTRIBUTING.md) antes de submeter um pull request.
-
+Contribuições são bem-vindas!
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
