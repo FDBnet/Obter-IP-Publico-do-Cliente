@@ -24,7 +24,7 @@ obterIP().then(ip => {
 });
 ```
 
-### Uso direto no navegador (via CDN):
+### Uso direto no navegador (via CDN ou diretório próprio):
 
 ```html
 <script src="Obter-IP-Publico-do-Cliente.min.js"></script>
