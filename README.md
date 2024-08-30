@@ -2,18 +2,12 @@
 
 Uma biblioteca JavaScript eficiente e leve para obter, do lado do cliente, o endereço IP público.
 
-## Instalação
-
-```bash
-npm install obter-ip-publico-do-cliente
-```
-
 ## Uso
 
 ### Com módulo ES6:
 
 ```javascript
-import obterIP from 'obter-ip-publico-do-cliente';
+import obterIP from 'Obter-IP-Publico-do-Cliente.min.js';
 
 obterIP().then(ip => {
   console.log('Seu IP público é:', ip);
@@ -23,7 +17,7 @@ obterIP().then(ip => {
 ### Com módulo CommonJS:
 
 ```javascript
-const obterIP = require('obter-ip-publico-do-cliente');
+const obterIP = require('Obter-IP-Publico-do-Cliente.min.js');
 
 obterIP().then(ip => {
   console.log('Seu IP público é:', ip);
@@ -33,7 +27,7 @@ obterIP().then(ip => {
 ### Uso direto no navegador (via CDN):
 
 ```html
-<script src="https://unpkg.com/obter-ip-publico-do-cliente"></script>
+<script src="Obter-IP-Publico-do-Cliente.min.js"></script>
 <script>
   obterIP().then(ip => {
     alert('Seu IP público é: ' + ip);
